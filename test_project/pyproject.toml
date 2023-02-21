@@ -9,8 +9,11 @@ packages = [{include = "test_project"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 pytest = "^7.2.1"
-selene = "^2.0.0b17"
+selene = "2.0.0b17"
 
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.16.2"
 
 [build-system]
 requires = ["poetry-core"]
